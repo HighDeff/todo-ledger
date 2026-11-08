@@ -36,9 +36,9 @@
       "routes": "backend.routes:register"
     }
   },
-  "permissions": {
-    "api": ["/api/apps/todo-ledger"],
-    "storage": true,
-    "events": ["update"]
-  }
+"permissions": {
+  "api": ["/api/apps/todo-ledger"],
+  "storage": true,
+  "events": ["update"],
+  "cron": true
 }
